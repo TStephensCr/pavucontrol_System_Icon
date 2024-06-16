@@ -1,18 +1,18 @@
 # pavucontrol_System_Icon
 A simple python script that creats an icon in your system tray which gives you the option of opening pavucontrol with one click. Pavucontrol is an audio management program. 
 
-##Setup
-###Make sure you have what you need
+## Setup
+### Make sure you have what you need
 ```bash
 sudo apt update
 sudo apt install python3 python3-pip pavucontrol xdotool
 pip3 install pystray pillow
 ```
-###Make the script executable
+### Make the script executable
 ```bash
 chmod +x volume_control.py
 ```
-###Adding to startup applications
+### Adding to startup applications
 Create a .desktop file:
 ```bash
 mkdir -p ~/.config/autostart
